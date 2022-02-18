@@ -1,0 +1,21 @@
+enum HockeyPosition {
+    Center,
+    LeftWing,
+    RightWing,
+    Defense,
+    Goalie,
+}
+
+fn next_player(_position: HockeyPosition) {
+
+}
+
+fn main() {
+    let position = HockeyPosition::Defense;
+    next_player(position);
+}
+
+enum Clock {
+    Hours(u32),
+    Minutes(u32),
+}
